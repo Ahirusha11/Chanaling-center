@@ -1,0 +1,146 @@
+<html>
+<head>
+	<title> Perlyn Channeling Center </title>
+	
+	<link href="css/form.css" type="text/css" rel="stylesheet">
+
+    
+</head>
+<body>
+	
+	<div class="top">
+		<div><marquee behaviour="slide" direction="split">
+		 Contact Us (+94) 552 222 800 | PerlynChannelingCenterBadulla.lk </marquee>
+		</div>
+	</div>
+	
+	<div class="logo">
+		<div>
+			<table>
+				<tr>
+					<td width="600px" style="font-size:50px;font-family:forte;"> <font color="#428bca"> Perlyn </font><font color="#000"> Channeling Center</font> </td>
+					<td> <br> <br>
+						<font size="4px"> 
+							<a href="index.html">HOME</a> 
+							<a href="about.html">ABOUT US</a>  
+							<a href="service.html">SERVICE</a>
+							<a href="doctor.html">DOCTORS</a> 
+							<a href="appointmenta.html">APPOINTMENT</a>
+							<a href="contact.html">CONTACT US</a>
+						</font>
+					</td>
+				</tr>
+			</table>
+		</div>
+	</div>
+<br>
+<br>
+
+	    <div class="testbox">
+      <form action="mysubmit.php" method="post">
+        <br/>
+        <fieldset>
+          <legend>Patient Information</legend>
+          <div class="item">
+            <label for="fname"> First Name<span>*</span></label>
+            <input id="fname" type="text" name="fname" required/>
+          </div>
+          <div class="item">
+            <label for="lname"> Last Name<span>*</span></label>
+            <input id="lname" type="text" name="lname" required/>
+          </div>
+          <div class="item">
+            <label for="initial">Initial<span>*</span></label>
+            <input id="initial" type="text" name="initial" required/>
+          </div>
+          <div class="item">
+            <label for="phone1">Fixd Line Phone<span>*</span></label>
+            <input id="phone1" type="number"   name="phone1" required/>
+          </div>
+          <div class="item">
+            <label for="phone2">Mobile Phone<span>*</span></label>
+            <input id="phone2" type="number"   name="phone2" required/>
+          </div>
+          <div class="item">
+            <label for="bdate">Birth Date <span>*</span></label>
+            <input id="bdate" type="date" name="bdate" required/>
+            <i class="fas fa-calendar-alt"></i>
+          </div>
+          <div class="question">
+            <label>Is this your first visit to our offices?</label>
+            <div class="question-answer">
+              <div>
+                <input type="radio" value="none" id="radio_1" name="visit"/>
+                <label for="radio_1" class="radio"><span>Yes</span></label>
+              </div>
+              <div>
+                <input  type="radio" value="none" id="radio_2" name="visit"/>
+                <label for="radio_2" class="radio"><span>No</span></label>
+              </div>
+            </div>
+          </div>
+        </fieldset>
+        <br/>
+        <fieldset>
+          <legend>Appointment Information</legend>
+          <div class="item">
+            <label for="date">Date<span>*</span></label>
+            <input id="date" type="date" name="dated" required/>
+            <i class="fas fa-calendar-alt"></i>
+          </div>
+          <div class="item">
+            <p>Time</p>
+            <select name = "timet">
+              <option selected value="" disabled selected></option>
+              <option value="m" >Morning</option>
+              <option value="a">Afternoon</option>
+              <option value="e">Evening</option>
+            </select>
+          </div>
+          <div class="question">
+            <label>Preferred Physician</label>
+            <div class="question-answer">
+              <div>
+                <input type="radio" value="none" id="radio_0" name="physician"/>
+                <label for="radio_0" class="radio"><span>Dr. W.S.U. Abeywickrama</span></label>
+              </div>
+              <div>
+                <input  type="radio" value="none" id="radio_3" name="physician"/>
+                <label for="radio_3" class="radio"><span>Dr. D.G.D.U. Ranasinghe</span></label>
+              </div>
+              <div>
+                <input  type="radio" value="none" id="radio_4" name="physician"/>
+                <label for="radio_4" class="radio"><span>Dr. Bandu Gunathilaka</span></label>
+              </div>
+              <div>
+                <input  type="radio" value="none" id="radio_5" name="physician"/>
+                <label for="radio_5" class="radio"><span>Dr. Kamal Gamage</span></label>
+              </div>
+              <div>
+                <input  type="radio" value="none" id="radio_6" name="physician"/>
+                <label for="radio_6" class="radio"><span>Dr. D.S.Rajapaksha</span></label>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <label for="instructions">Please describe the reason for this visit </label>
+            <textarea id="instructions" rows="3" name ="txtarea"></textarea>
+          </div>
+        </fieldset>
+        <div class="btn-block">
+          <button type="submit" href="/">Submit</button>
+        </div>
+      </form>
+    </div>	
+
+<br><br>
+
+
+
+
+
+	<div class="nav_down"><center>
+		<div>
+		 &copy; Perlyn Channeling Center Badulla, site designed & developed by Malindu Buddhika
+		</div>
+	</center></div>
